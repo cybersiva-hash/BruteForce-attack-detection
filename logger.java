@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Logger {
+public class logger {
 
     private static final String LOG_FILE = "log.txt";
 
@@ -32,4 +32,5 @@ public class Logger {
             System.out.println("Error writing to log file.");
         }
     }
+
 }
