@@ -1,6 +1,4 @@
-package security;
-
-public class PasswordStrengthChecker {
+public class passwordstrengthchecker {
     private static final int MIN_LENGTH = 8;
     private static final String SPECIAL_CHARS = "!@#$%^&*()_+-=[]{}|;:,.<>?";
 
@@ -23,3 +21,4 @@ public class PasswordStrengthChecker {
         return isStrong(password) ? "STRONG ✅" : "WEAK ❌";
     }
 }
+
